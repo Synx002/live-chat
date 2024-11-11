@@ -4,7 +4,7 @@ This PHP-based live chat application is designed to bring interactive experience
 
 Features:
 
-Real-time messaging for event attendees
-Image sharing for enhanced interaction
-Moderator view for managing and responding to messages
-Intuitive interface with dark theme for a modern look
+- Real-time messaging for event attendees
+- Image sharing for enhanced interaction
+- Moderator view for managing and responding to messages
+- Intuitive interface with dark theme for a modern look
