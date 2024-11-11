@@ -1,0 +1,124 @@
+/* login */
+.my-bg-login-image {
+  background: #e6e6e6;
+}
+.img-login {
+  padding: 109px 0px 0px 111px;
+  width: 77%;
+  margin-bottom: 55px;
+}
+
+/* general */
+.my-button {
+  width: 151px;
+  height: 45px;
+  border: none;
+  color: #fff;
+  background: #0073e6;
+}
+.page-head {
+  width: 100%;
+  background: yellow;
+  text-align: center;
+}
+.f-center {
+  text-align: center;
+}
+.f-right {
+  text-align: right;
+}
+
+.float-r {
+  float: right;
+}
+
+/* tollbar */
+/* .tollbar {
+  width: 100%;
+  height: 19px;
+  border: 1px solid grey;
+} */
+
+/* tollbar */
+.tollbar {
+  width: 100%;
+  height: 51px;
+  background: #e6f2ff;
+  padding: 17px 0px 0px 19px;
+}
+
+.tollbar a {
+  color: grey;
+  font-size: 11px;
+}
+
+/* home */
+.home-img {
+  width: 100%;
+  padding: 33px 0px 0px 517px;
+}
+.home-img img {
+  width: 33%;
+}
+
+/* table  */
+.my-table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+/* thead td {
+  border: 1px solid #000;
+} */
+
+.my-table thead td {
+  font-size: 13px;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 9px;
+}
+.my-table tbody td {
+  border: 1px solid black;
+  vertical-align: middle;
+  padding: 7px;
+  font-size: 13px;
+}
+
+/* entries */
+.btn-entries {
+  /* border: 1px solid #cccccc; */
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  border: 1px solid grey;
+}
+
+/* bg-color  */
+.bg-red {
+  background: #ff4d4d;
+}
+.bg-yellow {
+  background: #e6e600;
+}
+.bg-blue {
+  background: #0099e6;
+}
+.bg-grey {
+  background: #808080;
+}
+.bg-pink {
+  background: #ff3377;
+}
+.bg-green {
+  background: #2eb82e;
+}
+.bg-orange {
+  background: #ff6600;
+}
+.bg-cream {
+  background: #cca300;
+}
+
+/* color  */
+.white {
+  color: #fff;
+}

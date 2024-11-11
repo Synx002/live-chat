@@ -1,0 +1,221 @@
+.badge {
+    margin-left: 3px;
+}
+.dropdown a{
+    color: #f8f9fa;
+}
+
+.text-utama{
+    color: #f8f9fa;
+}
+
+.hidden {
+    display: none;
+}
+.btn-standby {
+	background: #4c525a;
+	padding: 0;
+	border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+
+.btn-standby span {
+	display: block;
+	background: #aeb0b3;
+	padding: 1rem 2rem;
+	border: 3px solid #4c525a;
+	border-radius: 10px;
+    color: #4c525a;
+	transform: translate3d(-4px, -4px, 0);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.btn-standby:hover span {
+	transform: translate3d( 0px, 0px, 0);
+}
+
+.btn-active {
+	background: #4c525a;
+	padding: 0;
+	border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+
+.btn-active span {
+    display: block;
+	background: #aeb0b3;
+	padding: 1rem 2rem;
+	border: 3px solid #4c525a;
+	border-radius: 10px;
+    color: #4c525a;
+    transform: translate3d( 0px, 0px, 0);
+}
+
+.button-container{
+    padding: 36px;
+	border-radius: 10px;
+    border: 3px solid #4c525a;
+    width: 100%;
+    background-color: rgb(78, 82, 88);
+}
+
+.btn-act {
+	background: #aeb0b3;
+	padding: 0;
+    margin: 2px 0 0 0;
+	border-radius: 10px;
+    border: none;
+    width: 20%;
+}
+
+.btn-act span {
+    display: block;
+	background: #4c525a;
+	padding: 10px 3px;
+	border: 3px solid #aeb0b3;
+	border-radius: 10px;
+    color: #aeb0b3;
+    transform: translate3d( 0px, 0px, 0);
+}
+
+#commentSection textarea {
+    width: 100%; /* Mengatur lebar penuh */
+    padding: 15px; /* Menambahkan padding agar teks tidak menempel di tepi */
+    border-radius: 10px; /* Menambahkan radius untuk sudut yang lebih halus */
+    border: 1px solid #aeb0b3; /* Memberikan border dengan warna yang lebih lembut */
+    background-color: #4c525a; /* Warna latar belakang yang lembut */
+    color: #f8f9fa; /* Warna teks yang nyaman di mata */
+    font-size: 1rem; /* Ukuran font */
+    resize: vertical; /* Hanya bisa diubah ukuran secara vertikal */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek depth */
+    transition: all 0.3s ease-in-out; /* Animasi halus saat fokus */
+}
+
+#commentSection textarea:focus {
+    outline: none; /* Menghilangkan outline default */
+    border-color: #aeb0b3; /* Mengubah warna border saat fokus */
+    box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.3); /* Menambahkan efek bayangan saat fokus */
+    background-color: #4c525a; /* Mengubah latar belakang saat fokus */
+}
+
+#commentSection textarea::placeholder {
+    color: #f8f9fa; /* Warna placeholder */
+    opacity: 1; /* Menetapkan opacity untuk placeholder */
+    font-style: italic; /* Menambahkan gaya italic pada placeholder */
+}
+
+/* Mengubah background modal */
+.modal-content {
+    background-color: #212529;
+    color: #ffffff; /* Mengatur warna teks menjadi putih agar kontras dengan latar belakang */
+}
+
+/* Mengubah warna header modal */
+.modal-header {
+    border-bottom: 1px solid #343a40; /* Border yang lebih lembut */
+}
+
+/* Mengubah warna title dalam modal */
+.modal-title {
+    color: #f8f9fa; /* Warna teks pada judul modal */
+}
+
+/* Mengubah warna body modal */
+.modal-body {
+    color: #ced4da; /* Warna teks pada body modal */
+}
+
+.btn-modal{
+    background: #aeb0b3;
+	padding: 0;
+	border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+
+.btn-modal span {
+    display: block;
+	background: #4c525a;
+	padding: 10px 20px;
+	border: 3px solid #aeb0b3;
+	border-radius: 10px;
+    color: #aeb0b3;
+    transform: translate3d( 0px, 0px, 0);
+}
+
+/* Mengubah warna close button */
+.btn-close {
+    filter: invert(1); /* Membuat tombol close menjadi putih */
+}
+
+/* Sembunyikan input file standar */
+input[type="file"] {
+    display: none;
+}
+
+#cameraStream {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+    background: #000; /* Fallback jika kamera gagal */
+}
+
+#cameraCanvas {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+    background: #000;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+div.dataTables_info {
+    color: white !important;
+    background-color: black;
+  }
+  
+  div.dataTables_paginate {
+    color: white !important;
+    background-color: black;
+  }
+  
+  div.dataTables_length {
+    color: white !important;
+    background-color: black;
+  }
+  
+  div.dataTables_filter {
+    color: white !important;
+    background-color: black;
+  }
+  
+  thead {
+    color: white !important;
+    background-color: black;
+  }
+  
+  div.dataTables_length select option {
+    color: white !important;
+    background-color: black;
+  }
+
+
+/* Full width on mobile devices */
+@media (min-width: 768px) {
+    .btn-standby {
+        width: 100%;
+    }
+
+    .btn-active {
+        width: 100%;
+    }
+
+    .btn-act {
+        width: 100%;
+    }
+
+}
